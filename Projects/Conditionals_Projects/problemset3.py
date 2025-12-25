@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # # write a program to detect banana health ripe unripe overripe
 
 # fruit = input("Enter Your Fruit = ").capitalize()
@@ -40,7 +39,6 @@
 # price = 89.83 if currency<0 else 0.011 #cent
 # print(price)
 
-=======
 # # write a program to detect banana health ripe unripe overripe
 
 # fruit = input("Enter Your Fruit = ").capitalize()
@@ -82,4 +80,3 @@
 # price = 89.83 if currency<0 else 0.011 #cent
 # print(price)
 
->>>>>>> 7d963b2 (Upload Python Code)

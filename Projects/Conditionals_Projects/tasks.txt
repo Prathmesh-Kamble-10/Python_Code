@@ -1,4 +1,0 @@
-<<<<<<< HEAD
-=======
-set of conditional projects
->>>>>>> 606d1f3 (git checks)
