@@ -4,5 +4,7 @@ tea_prices_inr = {
     "Lemon Tea": 200
 }
 
-tea_prices_usd = {tea:price / 89.86  for tea, price in tea_prices_inr.items()}
+tea_prices_usd = {tea:price / 90.08  for tea, price in tea_prices_inr.items()}
 print(tea_prices_usd)
+
+# make ur own menu and calculate in usd

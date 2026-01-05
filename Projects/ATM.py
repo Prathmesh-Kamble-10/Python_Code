@@ -2,8 +2,9 @@
 
 balance = 1000
 pin = 1111
-userPin = int(input("Enter Green Pin : "))
-if (userPin == pin):
+while True:
+    userPin = int(input("Enter Green Pin : "))
+    if (userPin == pin):
             print("Pin is verified...\n")
             ch = int(input("___Welcome Apkaa ATM___ " \
             "\n1. balance" \
@@ -28,7 +29,8 @@ if (userPin == pin):
                         print("Insufficient Balance.")
                 case 4:
                     print("Thanks for visit..")
+                    exit()  #break
                 case _:
                     print("Enter correct request")
-else:
+    else:
         print("Incorrect Pin")

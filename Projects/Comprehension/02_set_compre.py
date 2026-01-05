@@ -15,6 +15,9 @@ recipes = {
     "Spicy Chai": ["ginger", "black pepper", "clove"],
 }
 
+#["ginger", "cardamom", "clove"],["cardamom", "milk"], ["ginger", "black pepper", "clove"]
+#{ginger,cardamom,milk,black pepper,clove}
+
 unique_spices = {spice for ingredients in recipes.values() for spice in ingredients}
 
 print(unique_spices)
