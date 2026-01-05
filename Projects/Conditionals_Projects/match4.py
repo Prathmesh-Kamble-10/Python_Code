@@ -2,7 +2,7 @@
 
 balance = 1000
 pin = 1111
-userPin = int(input("Enter Green Pin : "))
+userPin = int(input("Enter UPI Pin : "))
 if (userPin == pin):
             print("Pin is verified...\n")
             ch = int(input("___Welcome Apkaa ATM___ " \
