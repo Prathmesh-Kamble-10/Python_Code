@@ -1,4 +1,4 @@
-staff = [("Amit", 21), ("Zara", 22), ("Raj", 23)]
+staff = [("Amit", 21), ("Zara", 22), ("Raj", 18)]
 
 for name, age in staff:
     if age <= 18:

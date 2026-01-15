@@ -2,15 +2,15 @@
 # y = ""
 # numStr = str(no)
 # for i in numStr:
-#     y=i+y # "54321" 
+#     y=i+y 
 # numInt=int(y)
 # print(numInt) #54321
 
 
-# num = -1234
+num = -1234
 
 # traditional way
-# positiveNum = abs(num)
+# positiveNum = abs(num)  # -1234  4321-
 # numstr = str(positiveNum)
 # revStr = numstr[::-1]
 # revNum = int(revStr)

@@ -6,22 +6,22 @@
 a = 5
 b = 2
 
-remainder = a % b
-if remainder != 0:
-    print(remainder)
+# remainder = a % b
+# if remainder != 0:
+#     print(remainder)
 
 
-# With :=:
+# With := 
 
-if (remainder := a % b) != 0:
-    print(remainder)
+# if (remainder := a % b) != 0:
+#     print(remainder)
 
 # The value of a % b is stored in remainder and used in the condition.
 
 
 # example : 2)
 
-# normal way :
+# normal way -
 
 # value = 13
 # remainder = value % 5
@@ -31,7 +31,7 @@ if (remainder := a % b) != 0:
 
 # using walrus (:=)
 
-# value = 15
+# value = 40
 
 # if remainder := value % 5:
 #     print(f"Not divisible, remainder is {remainder}")

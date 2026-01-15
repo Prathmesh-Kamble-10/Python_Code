@@ -11,10 +11,10 @@ revStr = ""
 # print(revStr)
 
 # second way
-# print(str1[::-1])
+# print(str1[::-1]) #[start:end:order]
 
 # Third Way
 # for x in reversed(str1):
-#     revStr+=x
+#     revStr+=x #revStr="dlrow"+
 # print(revStr)
 

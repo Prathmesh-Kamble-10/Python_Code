@@ -37,8 +37,8 @@ output:
 
 '''
 
-# for i in range(6,1,-1):
-#     for j in range(1,i):
+# for i in range(5,0,-1):
+#     for j in range(1,i+1):
 #         print(i%2, end =" ")
 #     print("\n")
 
@@ -48,7 +48,20 @@ output:
 
 # 3 pattern :
 
-# for i in range(70,65,-1):
-#     for j in range(70,):
-#         print(chr(i), end =" ")
-#     print("\n")
+for i in range(69,64,-1):
+    for j in range(1,6):
+        print(chr(i), end =" ")
+    print("\n")
+
+'''
+E E E E E 
+
+D D D D D 
+
+C C C C C 
+
+B B B B B 
+
+A A A A A 
+
+'''
