@@ -12,5 +12,3 @@ for word in words:
 
 result = " ".join(capitalized_words)
 print(result)
-
-
